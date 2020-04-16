@@ -521,6 +521,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PopUpScenario
       objectReference: {fileID: 0}
+    - target: {fileID: 1151513565122314769, guid: 58d6f140846beaf48ab6eb06aa73b9a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1151513565122314774, guid: 58d6f140846beaf48ab6eb06aa73b9a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -916,7 +921,7 @@ PrefabInstance:
     - target: {fileID: 1151513565122314769, guid: 58d6f140846beaf48ab6eb06aa73b9a1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1151513565122314774, guid: 58d6f140846beaf48ab6eb06aa73b9a1,
         type: 3}

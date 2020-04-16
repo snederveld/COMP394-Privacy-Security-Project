@@ -14,11 +14,12 @@ public class OptionContinue : MonoBehaviour {
     }
 
     void SwitchScenario() {
-        if (correct) {
+        if (correct) {    // switch scenario
             thisScenario.SetActive(false);
             nextScenario.SetActive(true);
-        } else {
-            //GameObject.Find("Failure").SetActive(true);  // TODO: FIND CORRECT PATH
+        } else {    // show Failure GO
+            GameObject failureGO = GameObject.Find("Failure");
+            failureGO.transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 }
