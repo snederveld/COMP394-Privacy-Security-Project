@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class OptionContinue : MonoBehaviour {
     public Button button;
+    public bool correct;
     public GameObject thisScenario;
     public GameObject nextScenario;
 
@@ -13,7 +14,11 @@ public class OptionContinue : MonoBehaviour {
     }
 
     void SwitchScenario() {
-        thisScenario.SetActive(false);
-        nextScenario.SetActive(true);
+        if (correct) {
+            thisScenario.SetActive(false);
+            nextScenario.SetActive(true);
+        } else {
+            //GameObject.Find("Failure").SetActive(true);  // TODO: FIND CORRECT PATH
+        }
     }
 }
