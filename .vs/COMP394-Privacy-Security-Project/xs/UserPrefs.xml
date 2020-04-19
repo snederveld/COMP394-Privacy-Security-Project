@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{A8A33058-0ECB-109E-05E2-153439C2918B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OptionContinue.cs">
+    <Files>
+      <File FileName="Assets/Scripts/OptionContinue.cs" Line="29" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="COMP394-Privacy-Security-Project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="OptionContinue.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3877875d-c535-4f52-bdaf-dd5dcfff137b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
